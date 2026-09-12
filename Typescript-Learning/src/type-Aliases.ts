@@ -62,7 +62,7 @@ type Person = {
 };
 
 type Employee = {
-    employeeId: number;
+    readonly employeeId: number;
     department: string;
     salary : number;
 };
